@@ -1,0 +1,43 @@
+/* Spaces out media buttons to be mobile firendly. */
+.et_pb_social_media_follow .et_pb_social_icon a {
+  margin-right: 12px;
+}
+
+/*  Ad Blur  */
+
+.ad-blur {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.ad-blur .et_parallax_bg {
+  min-height: 100%;
+  position: relative;
+  background-image: none !important;
+}
+
+.ad-blur .et_parallax_bg::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  will-change: transform;
+
+  filter: blur(25px);
+  transform: scale(1.2) translate3d(0, 0, 0);
+}
+
+.edge .ad-blur .et_parallax_bg::before {
+  transform: none;
+}
+
+/* End of Ad Blur */
