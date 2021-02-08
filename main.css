@@ -32,7 +32,7 @@
 
   will-change: transform;
 
-  filter: blur(50px);
+  filter: blur(0px);
   transform: scale(1.2) translate3d(0, 0, 0);
 }
 
