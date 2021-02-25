@@ -4,7 +4,6 @@
 }
 
 /*  Ad Blur  */
-
 .ad-blur {
   background: rgba(0, 0, 0, 0.75);
 }
@@ -39,5 +38,16 @@
 .edge .ad-blur .et_parallax_bg::before {
   transform: none;
 }
-
 /* End of Ad Blur */
+
+
+/* Aligns Accessibe Mobile Badge to Center and Edge of Screen */
+.acsb-trigger.acsb-trigger-position-x-left.acsb-mobile {
+    left: 0px !important;
+	bottom: 10px !important;
+}
+
+.acsb-trigger.acsb-trigger-position-y-center.acsb-mobile {
+    top: 70vh !important;
+}
+/* End of Accessibe Alignment */
